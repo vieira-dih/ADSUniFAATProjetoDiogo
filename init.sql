@@ -27,3 +27,4 @@ CREATE TABLE Aluno (
     informacoes_adicionais TEXT,
     CONSTRAINT fk_turma FOREIGN KEY (id_turma) REFERENCES Turma(id_turma)
 );
+
